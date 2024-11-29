@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mi Página Universitaria - Universidad Católica San Pablo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+            background-color: #f0f4f8; /* Color de fondo suave */
+        }
+        h1, h2 {
+            color: #2c3e50;
+        }
+        .seccion {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .contacto {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .contacto img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+        .datos-personales {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        .datos-personales img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        .redes-sociales a {
+            margin-right: 15px;
+            text-decoration: none;
+            color: #3498db;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="seccion">
+        <h2>Mis Datos Personales</h2>
+        <div class="datos-personales">
+            <img src="/api/placeholder/150/150" alt="Foto Personal">
+            <div>
+                <h3>Nombre Completo</h3>
+                <p>Estudiante de la Universidad Católica San Pablo</p>
+                <div class="redes-sociales">
+                    <a href="https://www.linkedin.com/in/miusuario" target="_blank">LinkedIn</a>
+                    <a href="https://github.com/miusuario" target="_blank">GitHub</a>
+                    <a href="mailto:mi.correo@ucsp.edu.pe">Correo Electrónico</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h1>Universidad Católica San Pablo</h1>
+
+    <!-- El resto del contenido anterior se mantiene igual -->
+    <div class="seccion">
+        <h2>Profesores</h2>
+        <div class="contacto">
+            <img src="/api/placeholder/50/50" alt="Profesor 1">
+            <p>Prof. Juan Pérez - <a href="https://www.linkedin.com/in/juanperez">LinkedIn</a></p>
+        </div>
+        <div class="contacto">
+            <img src="/api/placeholder/50/50" alt="Profesor 2">
+            <p>Prof. María Gutiérrez - <a href="https://www.linkedin.com/in/mariagutierrez">LinkedIn</a></p>
+        </div>
+        <div class="contacto">
+            <img src="/api/placeholder/50/50" alt="Profesor 3">
+            <p>Prof. Carlos Rodríguez - <a href="https://www.linkedin.com/in/carlosrodriguez">LinkedIn</a></p>
+        </div>
+        <div class="contacto">
+            <img src="/api/placeholder/50/50" alt="Profesor 4">
+            <p>Prof. Ana López - <a href="https://www.linkedin.com/in/analopez">LinkedIn</a></p>
+        </div>
+        <div class="contacto">
+            <img src="/api/placeholder/50/50" alt="Profesor 5">
+            <p>Prof. Diego Sánchez - <a href="https://www.linkedin.com/in/diegosanchez">LinkedIn</a></p>
+        </div>
+    </div>
+
+    <div class="seccion">
+        <h2>Compañeros</h2>
+        <div class="contacto">
+            <img src="/api/placeholder/50/50" alt="Compañero 1">
+            <p>Luis Mendoza - <a href="https://www.linkedin.com/in/luismendoza">LinkedIn</a></p>
+        </div>
+        <div class="contacto">
+            <img src="/api/placeholder/50/50" alt="Compañero 2">
+            <p>Sofía Ramírez - <a href="https://www.linkedin.com/in/sofiaramirez">LinkedIn</a></p>
+        </div>
+        <div class="contacto">
+            <img src="/api/placeholder/50/50" alt="Compañero 3">
+            <p>Miguel Torres - <a href="https://www.linkedin.com/in/migueltorres">LinkedIn</a></p>
+        </div>
+        <div class="contacto">
+            <img src="/api/placeholder/50/50" alt="Compañero 4">
+            <p>Valeria García - <a href="https://www.linkedin.com/in/valeriagarcia">LinkedIn</a></p>
+        </div>
+        <div class="contacto">
+            <img src="/api/placeholder/50/50" alt="Compañero 5">
+            <p>Pedro Hernández - <a href="https://www.linkedin.com/in/pedrohernandez">LinkedIn</a></p>
+        </div>
+    </div>
+
+    <div class="seccion">
+        <h2>Mis Actitudes</h2>
+        <ul>
+            <li>Proactivo y comprometido con mi aprendizaje</li>
+            <li>Trabajo en equipo y colaborativo</li>
+            <li>Responsable y puntual</li>
+            <li>Creatividad en la resolución de problemas</li>
+            <li>Capacidad de adaptación a nuevos desafíos</li>
+        </ul>
+    </div>
+
+    <div class="seccion">
+        <h2>Cursos Actuales</h2>
+        <ul>
+            <li>Matemáticas Avanzadas</li>
+            <li>Programación Web</li>
+            <li>Gestión de Proyectos</li>
+            <li>Comunicación Organizacional</li>
+            <li>Desarrollo de Software</li>
+        </ul>
+    </div>
+</body>
+</html>
